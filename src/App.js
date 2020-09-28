@@ -3,6 +3,8 @@ import './App.css';
 import Auth from '@aws-amplify/auth';
 import Analytics from '@aws-amplify/analytics';
 import awsconfig from './aws-exports';
+import { withAuthenticator } from 'aws-amplify-react';
+
 
 
 Auth.configure(awsconfig);
@@ -13,8 +15,6 @@ class App extends Component {
   constructor(props) {
     super(props);
     Analytics.record('AWS Amplify Course Event');
-
-
     Analytics.record({
         name: 'Course',
         attributes: { tech: 'AWS Amplify', author: 'Bear' }
@@ -38,4 +38,4 @@ class App extends Component {
 }
 
 
-export default App;
+export default withAuthenticator(App);
