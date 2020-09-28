@@ -2,12 +2,19 @@
   "auth": {
     "cognito67667e6d": {
       "service": "Cognito",
-      "providerPlugin": "awscloudformation"
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
     }
   },
   "analytics": {
     "pico": {
       "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
       "providerPlugin": "awscloudformation"
     }
   }
