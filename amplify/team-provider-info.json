@@ -1,0 +1,20 @@
+{
+  "picoenv": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pico-picoenv-181441-authRole",
+      "UnauthRoleArn": "arn:aws:iam::395800739806:role/amplify-pico-picoenv-181441-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::395800739806:role/amplify-pico-picoenv-181441-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pico-picoenv-181441-deployment",
+      "UnauthRoleName": "amplify-pico-picoenv-181441-unauthRole",
+      "StackName": "amplify-pico-picoenv-181441",
+      "StackId": "arn:aws:cloudformation:us-east-1:395800739806:stack/amplify-pico-picoenv-181441/0f0e8130-004e-11eb-ac44-1261ea05b3bf",
+      "AmplifyAppId": "d1rrclx8353ysv"
+    },
+    "categories": {
+      "auth": {
+        "cognito67667e6d": {}
+      }
+    }
+  }
+}
